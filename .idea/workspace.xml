@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solver">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -53,7 +53,13 @@
     <configuration name="Board" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Board" />
       <module name="java-slider-puzzle" />
-      <option name="PROGRAM_PARAMETERS" value="board2.txt" />
+      <option name="PROGRAM_PARAMETERS" value="board.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Solver" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Solver" />
+      <module name="java-slider-puzzle" />
+      <option name="PROGRAM_PARAMETERS" value="board.txt" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -67,5 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="TwinPQ" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
